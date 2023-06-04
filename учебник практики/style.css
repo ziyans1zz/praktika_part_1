@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat:ital,wght@0,200;1,900&display=swap');
+
+* {
+    color: blueviolet;
+    background-color: lightgray;
+    font-family: Comfortaa;
+}
+
+/* города */
+ #pole{
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+  }
+  /* чеклист */
+  #checklist, #list {
+      display: inline-block;
+    width: 400px;
+    font-size: 16px;
+  }
+
+  #list {
+      padding: 0;
+      list-style-type: none;
+  }
+
+  #list li{
+    font-size: 18px;
+    padding: 5px 0px;
+  }
+
+  #list span {
+      margin-right: 5px;
+  }
+
+  #list .remove, #list .mark {
+      color: blue;
+      cursor: pointer;
+  }
+
+  #list .remove:hover, #list .mark:hover {
+      text-decoration: underline;
+  }
+
+  .done {
+      text-decoration: line-through;
+  } */
+
+  /* заметки */
+     #wrapper {
+      width: 500px;
+      margin: 0 auto;
+      position: relative;
+  }
+  #menu {
+      width: 150px;
+      position: absolute;
+      right: 105%;
+  }
+  #zametki {
+      padding: 0;
+      margin: 0;
+  }
+  #zametki li {
+    display: flex;
+    justify-content: space-between;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px dashed gray;
+      list-style-type: none;
+      cursor: pointer;
+  }
+
+  #zametki li:hover ,#zametki li:hover span, #zametki li.active, #zametki li.active span{
+      background-color: #acaaaa;
+  }
+  #create button {
+      width: 100%;
+      padding: 5px;
+  }
+
+  #text textarea {
+      width: 100%;
+      height: 400px;
+      box-sizing: border-box;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  #text button {
+      width: 100%;
+      height: 30px;
+  }
+
+   /* калькулятор */
+  #calculator {
+      margin: 0 auto;
+      width: 500px;
+  }
+
+  #forma {
+      display: flex;
+      margin-bottom: 15px;
+  }
+  #forma input {
+      padding: 8px;
+      width: 24%;
+      margin: 0 0.5% 10px 0.5%;
+  }
+
+  h2 {
+      margin-top: 0;
+      margin-bottom: 7px;
+  }
+
+  #tablica {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  #tablica td, #tablica th {
+      padding: 8px;
+      text-align: center;
+      border: 1px solid black;
+  }
+  #tablica td.remove {
+      color: blue;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  #tablica td.remove:hover {
+      text-decoration: none;
+  }
+
+  #result {
+      text-align: right;
+      margin-right: 10px;
+  }
+    
+    /* тесты */ 
+  .right {
+      border: 1px solid green;
+    background-color: green;
+  }
+  .wrong {
+    border: 1px solid red;
+    background-color: red;
+  }
+
+  .testBtn{
+    margin-top: 20px;
+
+    width: 100px;
+    height: 30px;
+  }
+
+  #testBtn2{
+    padding: 5px;
+  }
+
+  /* слайдеры */
+  #slider{
+    font-size: 30px;
+  } 
